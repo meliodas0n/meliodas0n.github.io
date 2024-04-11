@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.creator {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 108px;
+}
+
+.comment {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 48px;
+  margin-top: -70px;
+}
+
+.question {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 62px;
+  margin-top: -40px;
+}
+
+.my_work {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 52px;
+  display: flex;
+  flex-direction: row;
+  margin-top: -100px;
+}
+
+.company_about {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  margin-top: -70px;
+}
+
+.techstack {
+  margin-top: -50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.techstack_heading {
+  padding-right: 600px;
+  font-size: 26px;
+}
+
+.stack {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.role {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
