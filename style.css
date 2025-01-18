@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: url('fonts/PoppinsRegular.ttf');
+}
+
+@font-face {
+  font-family: 'PlaywriteRegular';
+  src: url('fonts/PlaywriteINRegular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/me.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: lighten;
+}
+
+.topnav {
+  font-family: 'PlaywriteRegular';
+  overflow: hidden;
+  text-align: center;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.about_heading {
+  font-family: 'PlaywriteRegular';
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+
+.about_description {
+  font-family: 'PoppinsRegular';
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  padding-left: 340px;
+  padding-right: 340px;
+}
